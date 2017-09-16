@@ -1,9 +1,11 @@
 {
 	"name": "jest-vanillajs-webpack",
+	"description": "Tinkering with techniques for testing Vanilla JS with Jest",
 	"version": "0.0.1",
 	"main": "src/index.js",
 	"author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
 	"license": "MIT",
+	"url": "https://github.com/globalroo/jest-vanillajs-webpack.git",
 	"scripts": {
 		"prebuild": "yarn run clean && yarn run lint",
 		"build": "yarn run test && webpack",
