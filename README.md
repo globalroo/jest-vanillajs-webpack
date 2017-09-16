@@ -1,4 +1,4 @@
-# jest-vanillajs-webpack
+# jest-vanillajs-webpack [![Build Status](https://travis-ci.org/globalroo/jest-vanillajs-webpack.svg?branch=master)](https://travis-ci.org/globalroo/jest-vanillajs-webpack)
 
 > Tinkering with techniques for testing Vanilla JS with Jest
 
