@@ -6,7 +6,7 @@ export function buttonClicked() {
 }
 
 export function descriptionUpdated() {
-	description.innerHTML = "The description has now changed, a snapshot test will verify this.";
+	description.innerHTML = "The description has now changed, a snapshot BREAK INTENTIONALLY TO TEST TRAVIS test will verify this.";
 }
 
 button.addEventListener("click", buttonClicked);
