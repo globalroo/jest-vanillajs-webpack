@@ -12,11 +12,12 @@
 		"clean": "rimraf _build",
 		"lint": "eslint src/**/*.js",
 		"package": "yarn run clean && rimraf node_modules",
-		"test": "jest --config jest.config.json"
+		"test": "jest --config jest.config.json && codecov"
 	},
 	"devDependencies": {
-		"babel-preset-env": "^1.6.0",
 		"babel-jest": "^21.0.2",
+		"babel-preset-env": "^1.6.0",
+		"codecov": "^2.3.0",
 		"copy-webpack-plugin": "^4.0.1",
 		"eslint": "^4.6.1",
 		"jest": "^21.0.2",
