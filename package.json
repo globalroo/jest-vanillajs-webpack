@@ -1,0 +1,24 @@
+{
+	"name": "jest-vanillajs-webpack",
+	"version": "0.0.1",
+	"main": "src/index.js",
+	"author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
+	"license": "MIT",
+	"scripts": {
+		"prebuild": "yarn run clean && yarn run lint",
+		"build": "yarn run test && webpack",
+		"clean": "rimraf _build",
+		"lint": "eslint src/**/*.js",
+		"package": "yarn run clean && rimraf node_modules",
+		"test": "jest --config jest.config.json"
+	},
+	"devDependencies": {
+		"babel-preset-env": "^1.6.0",
+		"babel-jest": "^21.0.2",
+		"copy-webpack-plugin": "^4.0.1",
+		"eslint": "^4.6.1",
+		"jest": "^21.0.2",
+		"jest-cli": "^21.0.2",
+		"webpack": "^3.5.6"
+	}
+}

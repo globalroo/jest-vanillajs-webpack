@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use snapshots to compare expected DOM structure Clicking the description changes the content and matches the stored snapshot 1`] = `"The description has now changed, a snapshot test will verify this."`;
